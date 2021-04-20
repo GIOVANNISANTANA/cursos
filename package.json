@@ -1,0 +1,8 @@
+{
+  "name": "cursos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GIOVANNISANTANA/cursos.git",
+  "author": "Giovanni Santana <GIOVANNIALMEIDA11@HOTMAIL.COM>",
+  "license": "MIT"
+}

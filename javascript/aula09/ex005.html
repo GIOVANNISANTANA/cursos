@@ -19,8 +19,16 @@
   <p>Aprendendo a usar o <strong>DOM </strong> em JavaScript</p>
   <div>Clique em mim</div>
   <script>
-    //window.document.write(window.navigator)
-    //parei de assistir a aula para continuar mais tarde
+    window.document.write(window.document.URL+ "</br>")
+    //por marca
+    var p1 = window.document.getElementsByTagName('p')[0]   //o numero 0 indica o primeiro parágrafo
+    p1.style.color = 'red'
+    window.document.write('Está escrito assim: ' +p1.innerText+ '</br>')
+    
+    var corpo = window.document.body
+    corpo.style.background = 'black'
+    
+    //parei de assistir a aula aos 20 minutos para continuar mais tarde
   </script>
 </body>
 </html>
